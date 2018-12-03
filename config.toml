@@ -1,0 +1,76 @@
+baseURL = "https://optimistic-tesla-682e6a.netlify.com/"
+title = "Etablissement Saint-Joseph Geer"
+theme = "universal"
+languageCode = "be-fr"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "fr"
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    name = "Accueil"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+    defaultKeywords = ["devows", "hugo", "go"]
+    defaultDescription = "Site template made by devcows using hugo"
+
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = "AIzaSyB99Ka4W0T1lW1wX46Ov_WK4Wqc_UqgSo0"
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "green"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "secretariat@saintjosephgeer.be"
+
+    about_us = """<p><strong>Enseignement secondaire spécialisé</strong>
+<br>Centre P.M.S. - aide aux enfants en difficulté,
+<br>Classes de dépaysement,
+<br>Repas chauds à midi,
+<br>Alternance,
+<br>Un choix parmi 16 métiers,
+<br>Activités culturelles et sportives.</p>"""
+    copyright = "Etablissement Saint-Joseph, Geer"
+
+    # Format dates with Go's time formatting
+    date_format = "2 January 2006"
+
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
+    address = """<p><strong>Establishment St Joseph</strong>
+        <br>Rue Emile Lejeune 1, 
+        <br>4250 Geer
+      </p>
+      """
+    latitude = "50.67003505"
+    longitude = "5.172007218965582"
+    direction = "Rue Emile Lejeune 1, 4250 Geer"
+    
+[params.features]
+    enable = true
+
+[params.carousel]
+    enable = true
