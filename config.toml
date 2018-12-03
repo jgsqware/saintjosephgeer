@@ -63,6 +63,8 @@ defaultContentLanguage = "fr"
     address = """<p><strong>Establishment St Joseph</strong>
         <br>Rue Emile Lejeune 1, 
         <br>4250 Geer
+        <br><br><i class="fas fa-phone"></i> 019 54 64 30
+        <br><i class="fas fa-envelope"></i> secretariat@saintjosephgeer.be
       </p>
       """
     latitude = "50.67003505"
