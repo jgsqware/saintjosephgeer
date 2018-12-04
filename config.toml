@@ -60,10 +60,10 @@ defaultContentLanguage = "fr"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p><strong>Establishment St Joseph</strong>
+    address = """<p><strong>Etablissement St Joseph</strong>
         <br>Rue Emile Lejeune 1, 
         <br>4250 Geer
-        <br><br><i class="fas fa-phone"></i> 019 54 64 30
+        <br><br><i class="fas fa-phone"></i> 019 58 80 41
         <br><i class="fas fa-envelope"></i> secretariat@saintjosephgeer.be
       </p>
       """
