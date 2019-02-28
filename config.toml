@@ -64,7 +64,7 @@ defaultContentLanguage = "fr"
         <br>Rue Emile Lejeune 1, 
         <br>4250 Geer
         <br><br><i class="fas fa-phone"></i> 019 58 80 41
-        <br><i class="fas fa-envelope"></i> secretariat@saintjosephgeer.be
+        <br><i class="fas fa-envelope"></i> direction@saintjosephgeer.be
       </p>
       """
     latitude = "50.67003505"
