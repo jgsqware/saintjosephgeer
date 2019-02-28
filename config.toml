@@ -44,7 +44,7 @@ defaultContentLanguage = "fr"
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "secretariat@saintjosephgeer.be"
+    email = "direction@saintjosephgeer.be"
 
     about_us = """<p><strong>Enseignement secondaire spécialisé</strong>
 <br>Centre P.M.S. - aide aux enfants en difficulté,
